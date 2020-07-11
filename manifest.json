@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "NetFix",
+  "version": "1.0",
+  "description": "Conveniently displays IMDb, Rotten Tomatoes, and Metacritic scores under titles on Netflix",
+  "permissions": ["https://www.netflix.com/*", "https://www.omdbapi.com/*"],
+  "content_scripts": [
+  {
+    "matches": ["https://www.netflix.com/*", "https://www.omdbapi.com/*"],
+    "js": ["netfix.js"]
+  }
+  ],
+  "web_accessible_resources": [
+    "images/imdb_logo.png",
+    "images/rt_logo.png",
+    "images/metacritic_logo.png"
+  ]
+}
