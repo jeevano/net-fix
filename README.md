@@ -1,5 +1,5 @@
 # NetFix
-NetFix is a Chrome extension that conveniently displays IMDb, Rotten Tomatoes, and Metacritic ratings when previewing Netflix titles in the Google Chrome browser. This extension was created to be compatible with Netflix's new UI changes. The extension makes use of the OMDbAPI (http://www.omdbapi.com/) to obtain the displayed ratings.
+NetFix is a Chrome extension that conveniently displays IMDb, Rotten Tomatoes, and Metacritic ratings when previewing Netflix titles in the Google Chrome browser. This extension was created to be compatible with Netflix's new UI changes. The extension makes use of the OMDb API (http://www.omdbapi.com/) to obtain the displayed ratings.
 
 ## Installation
 1. Download the extension (this repository)
